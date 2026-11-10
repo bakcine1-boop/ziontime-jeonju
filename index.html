@@ -1,301 +1,440 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Zion Time — 피아워십과 함께하는 시온타임 | 2026.11.21 전주시온성교회</title>
-<meta name="description" content="함께 모여 함께 찬양하고 함께 예배하는 시간. 2026년 11월 21일 (토) 저녁 7시, 전주시온성교회 시온성전. 피아워십 · 이동선 목사와 함께하는 시온타임.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://ziontime.churchhistory.kr/">
-<meta property="og:title" content="피아워십과 시온타임 | 11.21(토) 저녁 7시 전주시온성교회">
-<meta property="og:description" content="함께 모여, 함께 찬양하고, 함께 예배하는 밤. 참가비 없음 · 사전 신청 후 당일 선착순 입장">
-<meta property="og:image" content="https://ziontime.churchhistory.kr/images/zion-promo.png">
-<meta name="theme-color" content="#070b14">
-<link rel="preconnect" href="https://cdn.jsdelivr.net">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<style>
-:root{--bg:#070b14;--bg2:#0c1220;--line:rgba(255,255,255,.09);--w:#f4f7fb;--w6:rgba(244,247,251,.66);--w4:rgba(244,247,251,.44);--c:#00aeef;--c2:#5fd3ff;--y:#ffd54a}
-*{box-sizing:border-box;margin:0;padding:0}
-[hidden]{display:none!important}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{font-family:'Pretendard Variable',Pretendard,-apple-system,sans-serif;background:var(--bg);color:var(--w);line-height:1.65;letter-spacing:-.01em;word-break:keep-all}
-a{color:inherit}
-img{display:block;max-width:100%}
-.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
-header{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(7,11,20,.72);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;letter-spacing:.02em}
-.brand img{height:22px;width:auto;filter:brightness(0) invert(1)}
-.brand span{font-size:15px}
-nav a{font-size:14px;color:var(--w6);text-decoration:none;margin-left:22px}
-nav a:hover{color:var(--w)}
-.cta-s{background:var(--c);color:#04121c!important;font-weight:700;padding:8px 14px;border-radius:999px}
-@media(max-width:720px){nav a:not(.cta-s){display:none}}
-.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;padding:120px 0 70px;overflow:hidden}
-.hero-bg{position:absolute;inset:0;background:url(images/hero-concert.jpg) center/cover no-repeat;transform:scale(1.04)}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,11,20,.10) 0%,rgba(7,11,20,.30) 45%,var(--bg) 100%)}
-.hero .wrap{position:relative;z-index:2;width:100%}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;letter-spacing:.14em;color:var(--c2);text-transform:uppercase}
-.eyebrow::before{content:"";width:24px;height:1px;background:var(--c2)}
-.hero h1{font-size:clamp(46px,11vw,112px);line-height:.98;font-weight:800;letter-spacing:-.035em;margin:18px 0 14px}
-.hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--c2),#fff 70%);-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero .lead{font-size:clamp(17px,2.6vw,22px);color:var(--w6);max-width:620px}
-.meta{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0 30px}
-.chip{border:1px solid var(--line);background:rgba(255,255,255,.05);border-radius:999px;padding:9px 16px;font-size:14px}
-.chip b{color:var(--y);font-weight:700;margin-right:6px}
-.btns{display:flex;flex-wrap:wrap;gap:12px}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 24px;border-radius:999px;font-weight:700;font-size:16px;text-decoration:none;border:1px solid var(--line);background:rgba(255,255,255,.06);cursor:pointer;color:var(--w)}
-.btn.pri{background:var(--c);border-color:var(--c);color:#04121c}
-.count{margin-top:26px;font-size:14px;color:var(--w4)}
-.count b{color:var(--w);font-variant-numeric:tabular-nums}
-section{padding:96px 0;border-top:1px solid var(--line)}
-.sh{margin-bottom:40px}
-.sh h2{font-size:clamp(28px,5vw,44px);line-height:1.2;font-weight:800;letter-spacing:-.03em;margin-top:12px}
-.sh p{color:var(--w6);margin-top:14px;max-width:640px;font-size:17px}
-.flow{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.flow div{border:1px solid var(--line);border-radius:20px;padding:28px 24px;background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,0))}
-.flow small{color:var(--c2);font-weight:700;letter-spacing:.12em;font-size:12px}
-.flow h3{font-size:22px;margin:10px 0 8px}
-.flow p{color:var(--w6);font-size:15px}
-@media(max-width:760px){.flow{grid-template-columns:1fr}}
-.leader{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
-.leader img{border-radius:22px;aspect-ratio:4/3;object-fit:cover;width:100%}
-.leader h3{font-size:30px;font-weight:800;letter-spacing:-.02em}
-.leader .role{color:var(--c2);font-weight:600;margin:6px 0 16px}
-.leader p{color:var(--w6);margin-bottom:12px}
-@media(max-width:820px){.leader{grid-template-columns:1fr}}
-.tl{list-style:none;border-left:1px solid var(--line);margin-left:8px}
-.tl li{position:relative;padding:0 0 26px 28px}
-.tl li::before{content:"";position:absolute;left:-5px;top:9px;width:9px;height:9px;border-radius:50%;background:var(--bg);border:2px solid var(--w4)}
-.tl li.hl::before{border-color:var(--c);background:var(--c)}
-.tl time{font-variant-numeric:tabular-nums;color:var(--c2);font-weight:700;font-size:15px}
-.tl h4{font-size:19px;margin-top:2px}
-.tl p{color:var(--w4);font-size:14px}
-.gal{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px}
-.gal img{width:100%;height:100%;object-fit:cover;border-radius:16px;aspect-ratio:1/1}
-.gal img:first-child{aspect-ratio:auto;grid-row:span 2}
-@media(max-width:720px){.gal{grid-template-columns:1fr 1fr}.gal img:first-child{grid-column:span 2;grid-row:auto;aspect-ratio:16/10}}
-.venue{display:grid;grid-template-columns:1.1fr 1fr;gap:28px;align-items:start}
-.venue img{border-radius:20px;width:100%;aspect-ratio:16/10;object-fit:cover}
-.vi h3{font-size:24px}
-.vi .addr{color:var(--w6);margin:6px 0 18px}
-.vi ul{list-style:none;color:var(--w6);font-size:15px}
-.vi li{padding:10px 0;border-bottom:1px solid var(--line)}
-.vi .btns{margin-top:20px}
-@media(max-width:820px){.venue{grid-template-columns:1fr}}
-.reg{max-width:720px}
-.tabs{display:flex;gap:6px;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:999px;padding:5px;margin-bottom:22px;width:max-content}
-.tabs button{border:0;background:none;color:var(--w6);font:inherit;font-weight:700;padding:10px 22px;border-radius:999px;cursor:pointer}
-.tabs button.on{background:var(--w);color:#08101c}
-form{display:grid;gap:16px}
-label{display:block;font-size:14px;font-weight:600;margin-bottom:7px;color:var(--w6)}
-input,select,textarea{width:100%;font:inherit;font-size:16px;color:var(--w);background:#0e1626;border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:14px 16px;outline:none}
-input:focus,select:focus,textarea:focus{border-color:var(--c)}
-.err{border-color:#ff6b6b!important}
-.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-@media(max-width:600px){.row{grid-template-columns:1fr}}
-.cats{display:flex;flex-wrap:wrap;gap:8px}
-.cats label{margin:0;cursor:pointer}
-.cats input{display:none}
-.cats span{display:inline-block;border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:9px 16px;font-size:15px;color:var(--w6)}
-.cats input:checked+span{background:var(--c);border-color:var(--c);color:#04121c;font-weight:700}
-.step{display:flex;align-items:center;gap:8px}
-.step button{width:50px;height:50px;border-radius:14px;border:1px solid rgba(255,255,255,.14);background:#0e1626;color:var(--w);font-size:22px;cursor:pointer}
-.step input{text-align:center;max-width:120px}
-.chk{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--w6);font-weight:500}
-.chk input{width:20px;height:20px;margin-top:2px;flex:none;accent-color:var(--c)}
-.g-only{display:none}
-.is-g .g-only{display:block}
-.note{font-size:13px;color:var(--w4)}
-.ok{border:1px solid var(--c);border-radius:20px;padding:32px;background:rgba(0,174,239,.07)}
-.ok h3{font-size:24px;margin-bottom:8px}
-.faq details{border-bottom:1px solid var(--line);padding:18px 0}
-.faq summary{cursor:pointer;font-weight:700;font-size:17px;list-style:none}
-.faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";float:right;color:var(--c2)}
-.faq details[open] summary::after{content:"–"}
-.faq p{color:var(--w6);margin-top:10px}
-footer{padding:48px 0 110px;border-top:1px solid var(--line);color:var(--w4);font-size:14px}
-footer b{color:var(--w)}
-.fab{position:fixed;left:16px;right:16px;bottom:calc(14px + env(safe-area-inset-bottom));z-index:30;display:none}
-@media(max-width:720px){.fab{display:flex}}
-.fab .btn{width:100%;box-shadow:0 10px 30px rgba(0,0,0,.45)}
-.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:#fff;color:#08101c;padding:12px 18px;border-radius:12px;font-weight:600;font-size:14px;opacity:0;pointer-events:none;transition:.25s;z-index:40}
-.toast.show{opacity:1}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Zion Time — 피아워십과 함께하는 시온타임 | 2026.11.21 전주시온성교회</title>
+  <meta name="description" content="함께 모여 함께 찬양하고 함께 예배하는 시간. 2026년 11월 21일 (토) 저녁 7시, 전주시온성교회 시온성전. 피아워십 · 이동선 목사와 함께하는 시온타임.">
+  <link rel="canonical" href="https://ziontime.churchhistory.kr/">
+  <meta property="og:url" content="https://ziontime.churchhistory.kr/">
+  <meta property="og:title" content="피아워십 초청 찬양예배 · 시온타임 (이동선 목사)">
+  <meta property="og:description" content="11월 21일(토) 저녁 7시 · 전주시온성교회 시온성전 · 저녁 6시부터 입장, 누구나 함께하는 찬양과 말씀의 밤">
+  <meta property="og:image" content="https://ziontime.churchhistory.kr/og-share-v5.png">
+  <meta property="og:image:secure_url" content="https://ziontime.churchhistory.kr/og-share-v5.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="피아워십과 시온타임 · 11.21(토) 저녁 7시 · 전주시온성교회">
+  <meta property="og:site_name" content="ZION TIME 2026">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ko_KR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="피아워십 초청 찬양예배 · 시온타임 (이동선 목사)">
+  <meta name="twitter:description" content="11월 21일(토) 저녁 7시 · 전주시온성교회 시온성전">
+  <meta name="twitter:image" content="https://ziontime.churchhistory.kr/og-share-v5.png">
+  <meta name="theme-color" content="#070816">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"피아워십과 함께하는 시온타임","startDate":"2026-11-21T19:00:00+09:00","endDate":"2026-11-21T21:00:00+09:00","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","location":{"@type":"Place","name":"전주시온성교회 시온성전","address":"전북특별자치도 전주시 덕진구 공북5길 55"},"organizer":{"@type":"Organization","name":"전주시온성교회"},"performer":{"@type":"MusicGroup","name":"FIA WORSHIP"},"isAccessibleForFree":true}</script>
+  <link rel="icon" type="image/png" href="fia-logo.png">
+  <link rel="apple-touch-icon" href="fia-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="preload" as="image" href="hero-concert.jpg">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header><div class="wrap">
-  <a class="brand" href="#top"><img src="images/fia-logo.png" alt="FIA WORSHIP"><span>ZION TIME</span></a>
-  <nav><a href="#about">소개</a><a href="#program">예배 순서</a><a href="#venue">오시는 길</a><a href="#faq">안내</a><a class="cta-s" href="#register">사전 신청</a></nav>
-</div></header>
+<body class="locked">
 
-<main id="top">
-<div class="hero"><div class="hero-bg" aria-hidden="true"></div><div class="wrap">
-  <span class="eyebrow">FIA WORSHIP 초청 찬양예배</span>
-  <h1>피아워십과<br><em>시온타임</em></h1>
-  <p class="lead">함께 모여, 함께 찬양하고, 함께 예배하는 밤. 청소년부터 장년까지, 전북의 모든 세대와 교회를 초대합니다.</p>
-  <div class="meta">
-    <span class="chip"><b>11.21 토</b>저녁 7시 (6시 입장)</span>
-    <span class="chip"><b>장소</b>전주시온성교회 시온성전</span>
-    <span class="chip"><b>참가비</b>없음</span>
+  <!-- ═══════ ICON SPRITE (line icons, 1.5px stroke) ═══════ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
+      <symbol id="i-arrow-ur" viewBox="0 0 24 24"><path d="M7 17 17 7M8.5 7H17v8.5"/></symbol>
+      <symbol id="i-car" viewBox="0 0 24 24"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></symbol>
+      <symbol id="i-bus" viewBox="0 0 24 24"><path d="M8 6v6M15 6v6M2 12h19.6"/><path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2s-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"/><circle cx="7" cy="18" r="2"/><path d="M9 18h5"/><circle cx="16" cy="18" r="2"/></symbol>
+      <symbol id="i-train" viewBox="0 0 24 24"><path d="M8 3.1V7a4 4 0 0 0 8 0V3.1M9 15l-1-1M15 15l1-1"/><path d="M9 19c-2.8 0-5-2.2-5-5v-4a8 8 0 0 1 16 0v4c0 2.8-2.2 5-5 5Z"/><path d="m8 19-2 3M16 19l2 3"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+      <symbol id="i-cross" viewBox="0 0 24 24"><path d="M12 3v18M6.5 8.5h11"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="17" rx="2.5"/><path d="M16 2.5v4M8 2.5v4M3 10h18"/></symbol>
+      <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4.5A1.5 1.5 0 0 1 3 13.5v-9A1.5 1.5 0 0 1 4.5 3h9A1.5 1.5 0 0 1 15 4.5V5"/></symbol>
+      <symbol id="i-share" viewBox="0 0 24 24"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7M16 6l-4-4-4 4M12 2v13"/></symbol>
+      <symbol id="i-map" viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3Z"/><path d="M9 3v15M15 6v15"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l12.5-7.5Z" fill="currentColor" stroke="none"/></symbol>
+      <symbol id="i-redo" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></symbol>
+    </defs>
+  </svg>
+
+  <!-- ═══════ SPLASH (FIA 로고 로딩) ═══════ -->
+  <div id="splash" role="status" aria-label="페이지 로딩 중">
+    <div class="sp-glow"></div>
+    <div class="sp-center">
+      <div class="sp-logo" id="sp-logo">
+        <span class="logo-mark" role="img" aria-label="FIA WORSHIP"></span>
+        <span class="sp-ring"></span>
+      </div>
+      <p class="sp-title" id="sp-title" aria-hidden="true">
+        <span class="w"><span>ZION</span></span>
+        <span class="w"><span>TIME</span></span>
+      </p>
+      <p class="sp-sub" id="sp-sub" aria-hidden="true">함께 모여, 함께 찬양하고, 함께 예배하는 시간</p>
+    </div>
+    <div class="sp-bottom">
+      <div class="sp-bar"><span id="sp-bar"></span></div>
+      <div class="sp-meta"><span>FIA WORSHIP × 전주시온성교회</span><span id="sp-pct">0%</span></div>
+    </div>
+    <div class="sp-curtain"></div>
   </div>
-  <div class="btns"><a class="btn pri" href="#register">사전 신청하기</a><a class="btn" href="#program">예배 순서 보기</a></div>
-  <p class="count" id="dday"></p>
-</div></div>
 
-<section id="about"><div class="wrap">
-  <div class="sh"><span class="eyebrow">About</span><h2>세대와 교회가<br>같은 노래를 부르는 두 시간</h2>
-  <p>전주시온성교회(담임 김승환 목사)가 피아워십을 초청해 교파를 넘어 전북 지역의 모든 세대가 한자리에 모이는 연합 찬양예배를 드립니다.</p></div>
-  <div class="flow">
-    <div><small>01</small><h3>함께 모여</h3><p>교회와 세대의 벽을 넘어 하나의 공동체로 모입니다.</p></div>
-    <div><small>02</small><h3>함께 찬양하고</h3><p>피아워십과 회중이 한목소리로 찬양합니다.</p></div>
-    <div><small>03</small><h3>함께 예배하는</h3><p>선포된 말씀 앞에 다시 서서 부흥을 구합니다.</p></div>
-  </div>
-</div></section>
+  <!-- ═══════ HEADER ═══════ -->
+  <header class="site-header" id="site-header">
+    <div class="h-inner">
+      <a href="#hero" class="h-brand" aria-label="ZION TIME 홈">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span>ZION<b>TIME</b></span>
+      </a>
+      <nav class="h-nav" aria-label="메인 메뉴">
+        <a href="#about">About</a>
+        <a href="#artist">Artist</a>
+        <a href="#program">Program</a>
+        <a href="#notice">Notice</a>
+        <a href="#venue">Venue</a>
+        <a href="#faq">FAQ</a>
+        <a href="#venue" class="h-cta">오시는 길 <svg class="ic"><use href="#i-arrow"/></svg></a>
+      </nav>
+      <a href="#venue" class="h-mcta">오시는 길</a>
+      <button class="menu-btn" id="menu-btn" aria-label="메뉴 열기" aria-expanded="false" aria-controls="m-nav"><span></span><span></span></button>
+    </div>
+  </header>
+  <nav class="m-nav" id="m-nav" aria-label="모바일 메뉴">
+    <a href="#about"><i>01</i>About</a>
+    <a href="#artist"><i>02</i>Artist</a>
+    <a href="#program"><i>03</i>Program</a>
+    <a href="#notice"><i>04</i>Notice</a>
+    <a href="#venue"><i>05</i>Venue</a>
+    <a href="#faq"><i>06</i>FAQ</a>
+    <a href="#share" class="m-cta">함께 갈 사람에게 알리기 <svg class="ic"><use href="#i-arrow"/></svg></a>
+    <div class="m-nav-info">
+      <span>2026. 11. 21 SAT · PM 7:00</span>
+      <span>전주시온성교회 시온성전</span>
+    </div>
+  </nav>
 
-<section id="leader"><div class="wrap leader">
-  <img src="images/lg-fia-mic.jpg" alt="찬양을 인도하는 피아워십" loading="lazy">
-  <div>
-    <span class="eyebrow">Worship Leader</span>
-    <h3 style="margin-top:12px">이동선 목사</h3>
-    <p class="role">피아워십 대표 · 분당우리교회 예배인도자</p>
-    <p>찬양 인도와 말씀을 함께 맡습니다. F.I.C 미니스트리 대표를 겸하며, ‘하나님의 부르심’, ‘나는 믿습니다’, ‘나는 지켜냅니다’ 등으로 한국교회에 깊은 울림을 전해 왔습니다.</p>
-    <p>F.I.A는 ‘행동하는 믿음(Faith In Action)’을 뜻합니다. 매주 목요일 정기 예배로 세대 통합 예배를 지향하며, 앨범 발매와 국내외 선교, 캠퍼스 사역으로 다음 세대를 섬기고 있습니다.</p>
-  </div>
-</div></section>
+  <main>
+    <!-- ═══════ HERO ═══════ -->
+    <section class="hero" id="hero" aria-label="메인">
+      <div class="hero-bg">
+        <video id="hero-vid" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture disableremoteplayback preload="auto" poster="hero-concert.jpg" aria-hidden="true" tabindex="-1">
+          <source src="hero.mp4" type="video/mp4">
+        </video>
+      </div>
+      <button type="button" class="vid-btn" id="vid-btn" aria-label="배경 영상 일시정지"></button>
+      <div class="hero-ov"></div>
+      
+      <div class="hero-c">
+        <div class="hero-eyebrow">
+          <span class="pulse"></span>
+          <span>FIA WORSHIP 초청 찬양예배 · JEONJU</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="ln"><span>ZION</span></span>
+          <span class="ln ln-out"><span>TIME</span></span>
+        </h1>
+        <p class="hero-band"><span>피아워십과 함께하는</span></p>
+        <p class="hero-kr">함께 모여, 함께 찬양하고, <em>함께 예배하는</em> 토요일 밤</p>
 
-<section id="program"><div class="wrap">
-  <div class="sh"><span class="eyebrow">Program</span><h2>예배 순서</h2></div>
-  <ol class="tl">
-    <li><time>18:00</time><h4>입장 및 사전 찬양</h4><p>도착 순서대로 입장</p></li>
-    <li><time>19:00</time><h4>환영 인사 · 여는 기도</h4></li>
-    <li class="hl"><time>19:10</time><h4>피아워십 찬양</h4><p>FIA WORSHIP</p></li>
-    <li class="hl"><time>20:00</time><h4>말씀</h4><p>이동선 목사</p></li>
-    <li><time>20:30</time><h4>결단과 응답의 기도회</h4></li>
-    <li><time>20:50</time><h4>서로 축복하며 마침</h4></li>
-  </ol>
-  <div class="gal" style="margin-top:36px">
-    <img src="images/fia-choir.jpg" alt="콰이어 앞에서 찬양을 인도하는 이동선 목사" loading="lazy">
-    <img src="images/fia-outdoor.jpg" alt="피아워십 야외 찬양예배" loading="lazy">
-    <img src="images/lg-youth-choir.jpg" alt="함께 찬양하는 청년들" loading="lazy">
-    <img src="images/fia-arms.jpg" alt="두 손 들고 찬양하는 회중" loading="lazy">
-    <img src="images/zion-promo.png" alt="시온타임 홍보 이미지" loading="lazy" style="object-fit:contain;background:#0e1626">
-  </div>
-</div></section>
+        <div class="hero-meta">
+          <div class="m-item"><span class="m-label">Date</span><span class="m-val">2026. 11. 21 <small>SAT</small></span></div>
+          <div class="m-item"><span class="m-label">Time</span><span class="m-val">PM 7:00 <small>6시 입장</small></span></div>
+          <div class="m-item"><span class="m-label">Venue</span><span class="m-val">전주시온성교회 시온성전</span></div>
+        </div>
 
-<section id="venue"><div class="wrap">
-  <div class="sh"><span class="eyebrow">Venue</span><h2>오시는 길</h2></div>
-  <div class="venue">
-    <img src="images/zion-church.jpg" alt="전주시온성교회 전경" loading="lazy">
-    <div class="vi">
-      <h3>전주시온성교회 시온성전</h3>
-      <p class="addr">전북특별자치도 전주시 덕진구 공북5길 55</p>
-      <ul>
-        <li>교회 주차 공간이 좁습니다. 대중교통이나 카풀을 권해 드립니다.</li>
-        <li>대형버스 등 단체 차량은 사전 신청 때 적어 주시면 하차 위치를 안내해 드립니다.</li>
-        <li>문의: 전주시온성교회 사무실 <a href="tel:063-252-6016">063-252-6016</a> · <a href="tel:063-252-6214">252-6214</a></li>
-      </ul>
-      <div class="btns">
-        <a class="btn" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%A0%84%EC%A3%BC%EC%8B%9C%EC%98%A8%EC%84%B1%EA%B5%90%ED%9A%8C">네이버 지도</a>
-        <a class="btn" target="_blank" rel="noopener" href="https://map.kakao.com/?q=%EC%A0%84%EC%A3%BC%EC%8B%9C%EC%98%A8%EC%84%B1%EA%B5%90%ED%9A%8C">카카오맵</a>
-        <button class="btn" type="button" id="copy-addr">주소 복사</button>
+        <div class="hero-actions">
+          <a href="#venue" class="btn-p"><span>오시는 길</span><svg class="ic arr"><use href="#i-arrow"/></svg></a>
+          <a href="#artist" class="btn-g"><svg class="ic"><use href="#i-play"/></svg><span>피아워십 만나기</span></a>
+        </div>
+      </div>
+
+      <div class="hero-cd" aria-label="행사까지 남은 시간">
+        <div class="cd-i"><span class="n" id="cd-d">0</span><span class="u">Days</span></div>
+        <div class="cd-i"><span class="n" id="cd-h">00</span><span class="u">Hrs</span></div>
+        <div class="cd-i"><span class="n" id="cd-m">00</span><span class="u">Min</span></div>
+        <div class="cd-i"><span class="n" id="cd-s">00</span><span class="u">Sec</span></div>
+      </div>
+      <a href="#about" class="hero-scroll" aria-label="아래로 스크롤"><span>Scroll</span><i></i></a>
+    </section>
+
+    <!-- ═══════ MARQUEE ═══════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="mq-track">
+        <span>ZION TIME</span><svg class="mq-x"><use href="#i-cross"/></svg><span>2026.11.21 SAT</span><svg class="mq-x"><use href="#i-cross"/></svg><span>FIA WORSHIP</span><svg class="mq-x"><use href="#i-cross"/></svg><span>함께 모여 함께 찬양하고 함께 예배하는</span><svg class="mq-x"><use href="#i-cross"/></svg><span>JEONJU ZIONSEONG CHURCH</span><svg class="mq-x"><use href="#i-cross"/></svg>
+        <span>ZION TIME</span><svg class="mq-x"><use href="#i-cross"/></svg><span>2026.11.21 SAT</span><svg class="mq-x"><use href="#i-cross"/></svg><span>FIA WORSHIP</span><svg class="mq-x"><use href="#i-cross"/></svg><span>함께 모여 함께 찬양하고 함께 예배하는</span><svg class="mq-x"><use href="#i-cross"/></svg><span>JEONJU ZIONSEONG CHURCH</span><svg class="mq-x"><use href="#i-cross"/></svg>
       </div>
     </div>
+
+    <!-- ═══════ ABOUT / STATEMENT ═══════ -->
+    <section class="sec stmt" id="about">
+      <div class="wrap">
+        <span class="sec-label rv">Invitation</span>
+        <p class="stmt-big" id="stmt-big">토요일 저녁, 전북의 모든 세대와 교회가 한자리에 모여 같은 노래를 부르고 같은 고백을 드리는 두 시간. 그 예배의 자리에 당신을 초대합니다.</p>
+        <div class="stat-grid">
+          <div class="stat rv">
+            <span class="stat-n"><b>6</b><small>PM</small></span>
+            <span class="stat-l">저녁 6시부터 입장<br>당일 도착 순서대로</span>
+          </div>
+          <div class="stat rv rv-d1">
+            <span class="stat-n"><b>2</b><small>HOURS</small></span>
+            <span class="stat-l">찬양과 말씀, 기도로 채우는<br>두 시간의 예배</span>
+          </div>
+          <div class="stat rv rv-d2">
+            <span class="stat-n"><b>ALL</b></span>
+            <span class="stat-l">청소년부터 장년까지<br>교파를 넘어 함께</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ CONCEPT CARDS ═══════ -->
+    <section class="sec concept" aria-label="행사 콘셉트">
+      <div class="wrap">
+        <div class="sec-hd rv">
+          <span class="sec-label">Together</span>
+          <h2 class="sec-title">함께 모여, <em>함께 예배하는</em> 시간</h2>
+          <p class="sec-desc">교회와 세대의 벽을 넘어 하나로 모이고, 피아워십과 한목소리로 찬양하며, 선포된 말씀 앞에 다시 섭니다.</p>
+        </div>
+        <div class="cc-grid">
+          <article class="cc cc-vi rv">
+            <div class="cc-img"><img src="lg-sunset-crowd.jpg" alt="함께 모여 예배하는 많은 회중" loading="lazy"></div>
+            <div class="cc-b"><span class="cc-n">01 · GATHER</span><h3>함께 모여</h3><p>교회와 세대의 벽을 넘어 하나의 공동체로</p></div>
+          </article>
+          <article class="cc cc-sk rv rv-d1">
+            <div class="cc-img"><img src="youth-singers.jpg" alt="함께 찬양하는 청년들" loading="lazy"></div>
+            <div class="cc-b"><span class="cc-n">02 · PRAISE</span><h3>함께 찬양하고</h3><p>피아워십과 회중이 한목소리로 호흡하는 찬양</p></div>
+          </article>
+          <article class="cc cc-sg rv rv-d2">
+            <div class="cc-img"><img src="emo-hand.jpg" alt="손을 들고 예배하는 모습" loading="lazy"></div>
+            <div class="cc-b"><span class="cc-n">03 · WORSHIP</span><h3>함께 예배하는</h3><p>말씀 앞에 다시 서서 회복을 구하는 시간</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ ARTIST ═══════ -->
+    <section class="sec artist" id="artist">
+      <div class="wrap">
+        <div class="art-grid">
+          <div class="art-txt">
+            <span class="sec-label rv">Guest Artist</span>
+            <h2 class="art-name rv rv-d1">FIA<br><span>WORSHIP</span></h2>
+            <p class="art-quote rv rv-d2">“Faith In Action” — 행동하는 믿음</p>
+            <p class="art-desc rv rv-d2">F.I.A는 <b>FAITH IN ACTION</b>의 줄임말로 ‘행동하는 믿음’을 의미합니다. 매주 목요 정기 예배를 드리며, 특정 세대가 아닌 전 세대의 예배자들이 모여 하나님을 찬양합니다. 예배를 넘어 앨범·선교·대학 캠퍼스 사역으로 다음 세대를 섬기고 있습니다.</p>
+            <div class="art-profile rv rv-d3">
+              <div>
+                <span class="ap-k">Worship Leader</span>
+                <strong>이동선 목사</strong>
+              </div>
+              <ul>
+                <li>F.I.A WORSHIP 대표</li>
+                <li>분당우리교회 예배인도자</li>
+                <li>F.I.C Ministry 대표</li>
+              </ul>
+            </div>
+            <div class="art-songs rv rv-d3">
+              <span>대표곡</span><b>하나님의 부르심</b><b>나는 믿습니다</b><b>나는 지켜냅니다</b>
+            </div>
+            <a class="art-feat rv rv-d3" href="https://www.youtube.com/results?search_query=%ED%94%BC%EC%95%84%EC%9B%8C%EC%8B%AD+%EB%82%98%EB%8A%94+%EC%A7%80%EC%BC%9C%EB%83%85%EB%8B%88%EB%8B%A4" target="_blank" rel="noopener">
+              <span class="af-img"><img src="fia-legacy-cross.jpg" alt="피아워십 Legacy – 나는 지켜냅니다" loading="lazy"><i aria-hidden="true"><svg class="ic"><use href="#i-play"/></svg></i></span>
+              <span class="af-t"><small>LEGACY · Live</small><b>나는 지켜냅니다</b><em>YouTube에서 듣기</em></span>
+              <svg class="ic af-go" aria-hidden="true"><use href="#i-arrow-ur"/></svg>
+            </a>
+          </div>
+          <div class="art-photos rv rv-d1">
+            <figure class="ap ap-1"><img src="fia-arms.jpg" alt="두 팔을 벌려 찬양하는 이동선 목사"></figure>
+            <figure class="ap ap-2"><img src="fia-green.jpg" alt="기타를 치며 찬양하는 이동선 목사"></figure>
+            <figure class="ap ap-3"><img src="fia-pray.jpg" alt="두 손을 모으고 찬양하는 이동선 목사"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ MOMENTS (피아워십 예배 현장) ═══════ -->
+    <section class="sec legacy" id="legacy">
+      <div class="wrap">
+        <div class="sec-hd sec-hd--row rv">
+          <div>
+            <span class="sec-label">Moments of Worship</span>
+            <h2 class="sec-title">세대가 함께<br><em>일어난</em> 예배의 순간들</h2>
+          </div>
+          <p class="sec-desc">피아워십과 함께 손을 들고 찬양했던 그 자리.<br>이제 그 찬양이 전주에서 이어집니다.</p>
+        </div>
+      </div>
+      <div class="lg-scroll" id="lg-scroll">
+        <div class="lg-track">
+          <figure class="lg-item lg-w"><img src="lg-sunset-stage.jpg" alt="노을 아래 야외무대와 회중" loading="lazy"></figure>
+          <figure class="lg-item"><img src="fia-band.jpg" alt="피아워십 밴드 예배" loading="lazy"></figure>
+          <figure class="lg-item"><img src="lg-fia-raise.jpg" alt="손을 들고 찬양하는 이동선 목사" loading="lazy"></figure>
+          <figure class="lg-item"><img src="lg-youth-choir.jpg" alt="청년 콰이어" loading="lazy"></figure>
+          <figure class="lg-item lg-w"><img src="lg-duo-back.jpg" alt="무대에서 바라본 회중" loading="lazy"></figure>
+          <figure class="lg-item"><img src="lg-sun-prayer.jpg" alt="햇살 아래 기도하는 회중" loading="lazy"></figure>
+          <figure class="lg-item"><img src="lg-kid.jpg" alt="아빠 어깨 위의 아이" loading="lazy"></figure>
+          <figure class="lg-item lg-w"><img src="lg-sunset-crowd.jpg" alt="함께 예배하는 많은 회중" loading="lazy"></figure>
+          <figure class="lg-item"><img src="lg-fia-night.jpg" alt="밤 무대 피아워십" loading="lazy"></figure>
+          <figure class="lg-item"><img src="lg-outdoor-prayer.jpg" alt="두 손 들고 기도하는 청년" loading="lazy"></figure>
+          <figure class="lg-item"><img src="lg-choir-day.jpg" alt="연합 콰이어 찬양" loading="lazy"></figure>
+          <figure class="lg-item"><img src="lg-fia-mic.jpg" alt="마이크를 든 이동선 목사" loading="lazy"></figure>
+        </div>
+      </div>
+      <div class="wrap lg-foot"><div class="lg-bar" aria-hidden="true"><span id="lg-bar"></span></div><p class="lg-credit">Photo · CTS 기독교TV · FIA WORSHIP</p></div>
+    </section>
+
+    <!-- ═══════ PROGRAM ═══════ -->
+    <section class="sec program" id="program">
+      <div class="wrap">
+        <div class="prog-grid">
+          <div class="sec-hd rv">
+            <span class="sec-label">Program</span>
+            <h2 class="sec-title">예배 순서</h2>
+            <p class="sec-desc">2026. 11. 21 (토) 저녁 7시<br>입장과 사전 찬양은 저녁 6시부터 시작됩니다.</p>
+            <p class="prog-note">※ 세부 순서는 준비 상황에 따라 변경될 수 있습니다.</p>
+          </div>
+          <ol class="prog-list" id="prog-list"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ NOTICE ═══════ -->
+    <section class="sec notice" id="notice">
+      <div class="wrap">
+        <div class="sec-hd rv">
+          <span class="sec-label">Notice</span>
+          <h2 class="sec-title">참석 <em>안내</em></h2>
+          <p class="sec-desc">별도의 신청이나 입장권 없이, 당일 오시면 됩니다.</p>
+        </div>
+        <div class="tip-grid tip-4">
+          <div class="tip rv"><span class="tip-ic"><svg class="ic"><use href="#i-cal"/></svg></span><b>저녁 6시 입장</b><p>입장과 사전 찬양은 저녁 6시부터, 예배는 7시에 시작합니다.</p></div>
+          <div class="tip rv rv-d1"><span class="tip-ic"><svg class="ic"><use href="#i-arrow"/></svg></span><b>당일 선착순</b><p>도착한 순서대로 입장합니다. 성전 수용 인원을 넘으면 입장이 제한될 수 있습니다.</p></div>
+          <div class="tip rv rv-d2"><span class="tip-ic"><svg class="ic"><use href="#i-check"/></svg></span><b>입장권 없이 입장</b><p>사전 신청이나 입장권 없이 누구나 오실 수 있습니다.</p></div>
+          <div class="tip rv rv-d3"><span class="tip-ic"><svg class="ic"><use href="#i-minus"/></svg></span><b>음식물 반입 제한</b><p>쾌적한 예배를 위해 현장에서 드리는 생수 외 음식물 반입은 제한됩니다.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ VENUE ═══════ -->
+    <section class="sec venue" id="venue">
+      <div class="wrap">
+        <div class="sec-hd rv">
+          <span class="sec-label">Venue</span>
+          <h2 class="sec-title">전주시온성교회 <em>시온성전</em></h2>
+        </div>
+        <div class="v-grid">
+          <div class="v-card rv">
+            <ul class="v-list">
+              <li><span>Date</span><b>2026년 11월 21일 (토) 저녁 7시</b></li>
+              <li><span>Open</span><b>저녁 6시 입장 · 당일 선착순</b></li>
+              <li><span>Place</span><b>전주시온성교회 시온성전</b></li>
+              <li><span>Address</span><b id="v-addr">전북특별자치도 전주시 덕진구 공북5길 55</b></li>
+              <li><span>Contact</span><b><a href="tel:063-252-6016">063-252-6016</a> · <a href="tel:063-252-6214">252-6214</a></b><small>전주시온성교회 사무실</small></li>
+            </ul>
+            <div class="v-acts">
+              <a class="btn-sm" href="https://map.naver.com/p/search/%EC%A0%84%EC%A3%BC%EC%8B%9C%EC%98%A8%EC%84%B1%EA%B5%90%ED%9A%8C" target="_blank" rel="noopener"><svg class="ic"><use href="#i-map"/></svg>네이버 지도</a>
+              <a class="btn-sm" href="https://map.kakao.com/?q=%EC%A0%84%EC%A3%BC%EC%8B%9C%EC%98%A8%EC%84%B1%EA%B5%90%ED%9A%8C" target="_blank" rel="noopener"><svg class="ic"><use href="#i-pin"/></svg>카카오맵</a>
+              <button class="btn-sm" type="button" id="copy-addr"><svg class="ic"><use href="#i-copy"/></svg>주소 복사</button>
+              <button class="btn-sm" type="button" id="cal-btn"><svg class="ic"><use href="#i-cal"/></svg>캘린더 추가</button>
+            </div>
+          </div>
+          <div class="v-map rv rv-d1">
+            <iframe title="전주시온성교회 지도" loading="lazy" src="https://maps.google.com/maps?q=%EC%A0%84%EC%A3%BC%EC%8B%9C%EC%98%A8%EC%84%B1%EA%B5%90%ED%9A%8C&z=16&output=embed"></iframe>
+          </div>
+        </div>
+        <div class="tip-grid">
+          <div class="tip rv"><span class="tip-ic"><svg class="ic"><use href="#i-car"/></svg></span><b>주차</b><p>교회 주차 공간이 협소합니다. 대중교통이나 카풀 이용을 부탁드립니다.</p></div>
+          <div class="tip rv rv-d1"><span class="tip-ic"><svg class="ic"><use href="#i-bus"/></svg></span><b>단체 차량</b><p>대형버스 등 단체 차량으로 오시는 교회는 교회 사무실로 미리 알려 주세요.</p></div>
+          <div class="tip rv rv-d2"><span class="tip-ic"><svg class="ic"><use href="#i-train"/></svg></span><b>대중교통</b><p>전주역이나 전주고속버스터미널에서 시내버스 또는 택시를 이용해 주세요.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ SHARE ═══════ -->
+    <section class="sec share" id="share">
+      <div class="reg-glow" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="sh-grid">
+          <div class="sh-txt">
+            <div class="sec-hd rv">
+              <span class="sec-label">Share</span>
+              <h2 class="sec-title">함께 갈 사람에게<br><em>알려주세요</em></h2>
+              <p class="sec-desc">가족, 친구, 교회 공동체와 함께 오세요. 링크 하나면 충분합니다.</p>
+            </div>
+            <div class="sh-acts rv rv-d1">
+              <button type="button" class="btn-p" id="sh-share"><svg class="ic"><use href="#i-share"/></svg><span>친구에게 알리기</span></button>
+              <button type="button" class="btn-sm" id="sh-copy"><svg class="ic"><use href="#i-copy"/></svg>링크 복사</button>
+              <button type="button" class="btn-sm" id="sh-cal"><svg class="ic"><use href="#i-cal"/></svg>캘린더에 저장</button>
+            </div>
+          </div>
+          <figure class="sh-poster rv rv-d1">
+            <img src="poster.jpg" alt="피아워십과 함께하는 시온타임 공식 포스터 · 2026.11.21 토요일 19:00~21:00 전주시온성교회 시온성전" loading="lazy">
+            <figcaption>공식 포스터</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ GUIDE / FAQ ═══════ -->
+    <section class="sec faq" id="faq">
+      <div class="wrap">
+        <div class="faq-grid">
+          <div class="sec-hd rv">
+            <span class="sec-label">Guide &amp; FAQ</span>
+            <h2 class="sec-title">참여 전<br>꼭 확인해 주세요</h2>
+            <p class="sec-desc">더 궁금한 점은 전주시온성교회 사무실(063-252-6016)로 문의해 주세요.</p>
+          </div>
+          <div class="faq-list" id="faq-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════ FINAL CTA ═══════ -->
+    <section class="final" aria-label="최종 안내">
+      <div class="final-bg"><img src="lg-fia-night.jpg" alt="" aria-hidden="true" loading="lazy"></div>
+      <div class="final-ov"></div>
+      <div class="wrap final-c rv">
+        <p class="final-pre">2026. 11. 21 SAT · PM 7:00 · 전주시온성교회 시온성전</p>
+        <h2>함께 모여, 함께 찬양하고,<br><em>함께 예배해요</em></h2>
+        <a href="#venue" class="btn-p"><span>오시는 길 보기</span><svg class="ic arr"><use href="#i-arrow"/></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════ FOOTER ═══════ -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="f-top">
+        <div class="f-brand">
+          <div class="f-logos">
+            <img src="church-logo-w.png" alt="대한예수교장로회 전주시온성교회" class="f-church">
+            <span class="f-x" aria-hidden="true">×</span>
+            <span class="logo-mark" role="img" aria-label="FIA WORSHIP"></span>
+          </div>
+          <div>
+            <strong>ZION TIME 2026</strong>
+            <p>피아워십과 함께하는 시온타임</p>
+          </div>
+        </div>
+        <dl class="f-info">
+          <div><dt>주최</dt><dd>전주시온성교회 (담임 김승환 목사)</dd></div>
+          <div><dt>일시</dt><dd>2026. 11. 21 (토) 저녁 7시 · 6시 입장</dd></div>
+          <div><dt>장소</dt><dd>전주시온성교회 시온성전 · 전주시 덕진구 공북5길 55</dd></div>
+          <div><dt>문의</dt><dd><a href="tel:063-252-6016">063-252-6016</a>, <a href="tel:063-252-6214">252-6214</a></dd></div>
+        </dl>
+      </div>
+      <div class="f-btm">
+        <span>© 2026 전주시온성교회. Photo · CTS 기독교TV · FIA WORSHIP</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 모바일 하단 CTA -->
+  <div class="mob-cta" id="mob-cta">
+    <span class="mc-d"><b id="mc-dday">D-0</b> 11.21 SAT</span>
+    <button type="button" class="btn-sm mc-cal" id="mc-cal" aria-label="캘린더에 저장"><svg class="ic"><use href="#i-cal"/></svg></button>
+    <button type="button" class="btn-p" id="mc-share"><span>친구에게 알리기</span><svg class="ic arr"><use href="#i-share"/></svg></button>
   </div>
-</div></section>
 
-<section id="register"><div class="wrap reg">
-  <div class="sh"><span class="eyebrow">Register</span><h2>사전 신청</h2>
-  <p>참가비는 없습니다. 예배 공간과 안내, 생수 준비를 위해 미리 신청해 주세요. 좌석 지정제가 아니며 당일 도착 순서대로 입장합니다.</p></div>
-  <div id="reg-box">
-    <div class="tabs" role="tablist"><button type="button" class="on" data-t="개인">개인 신청</button><button type="button" data-t="단체">단체 신청</button></div>
-    <form id="f" novalidate>
-      <div class="row">
-        <div><label for="f-name" id="l-name">이름</label><input id="f-name" autocomplete="name" placeholder="홍길동"></div>
-        <div><label for="f-phone">연락처</label><input id="f-phone" inputmode="numeric" autocomplete="tel" placeholder="010-0000-0000"></div>
-      </div>
-      <div class="row">
-        <div><label for="f-church" id="l-church">교회</label><input id="f-church" placeholder="○○교회"></div>
-        <div><label for="f-region">지역</label><select id="f-region">
-          <option>전주시</option><option>군산시</option><option>익산시</option><option>정읍시</option><option>남원시</option><option>김제시</option><option>완주군</option><option>진안군</option><option>무주군</option><option>장수군</option><option>임실군</option><option>순창군</option><option>고창군</option><option>부안군</option><option>전북 외 지역</option>
-        </select></div>
-      </div>
-      <div class="p-only"><label>구분</label><div class="cats">
-        <label><input type="radio" name="cat" value="청소년"><span>청소년</span></label>
-        <label><input type="radio" name="cat" value="청년"><span>청년</span></label>
-        <label><input type="radio" name="cat" value="장년" checked><span>장년</span></label>
-        <label><input type="radio" name="cat" value="사역자"><span>사역자</span></label>
-        <label><input type="radio" name="cat" value="기타"><span>기타</span></label>
-      </div></div>
-      <div class="row">
-        <div><label for="f-count">인원</label><div class="step"><button type="button" data-s="-1" aria-label="인원 줄이기">−</button><input id="f-count" inputmode="numeric" value="1"><button type="button" data-s="1" aria-label="인원 늘리기">+</button></div></div>
-        <div class="g-only"><label for="f-youth">그중 청소년·청년 수</label><input id="f-youth" inputmode="numeric" placeholder="0"></div>
-      </div>
-      <div class="g-only"><label class="chk"><input type="checkbox" id="f-bus"> 대형버스 등 단체 차량으로 옵니다 (하차 위치를 안내해 드립니다)</label></div>
-      <div><label for="f-note">요청사항 (선택)</label><textarea id="f-note" rows="3" placeholder="휠체어 이용, 단체 차량 대수 등"></textarea></div>
-      <label class="chk" id="agree-wrap"><input type="checkbox" id="f-agree"> 행사 안내를 위해 이름·연락처·교회를 수집하고, 행사 종료 후 파기하는 데 동의합니다.</label>
-      <button class="btn pri" id="sub" type="submit" style="width:100%">신청하기</button>
-      <p class="note">신청 후 바꾸실 내용이 있으면 같은 이름과 연락처로 다시 신청하시거나 교회 사무실로 연락해 주세요.</p>
-    </form>
-    <div class="ok" id="ok" hidden><h3>신청이 접수되었습니다</h3><p id="ok-msg"></p><div class="btns" style="margin-top:18px"><a class="btn" id="cal" target="_blank" rel="noopener">캘린더에 추가</a><button class="btn" type="button" id="again">추가 신청</button></div></div>
-  </div>
-</div></section>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
 
-<section id="faq"><div class="wrap faq">
-  <div class="sh"><span class="eyebrow">Notice</span><h2>참석 안내</h2></div>
-  <details><summary>참가비가 있나요?</summary><p>없습니다. 별도 티켓 없이 누구나 참여할 수 있습니다.</p></details>
-  <details><summary>사전 신청을 하면 자리가 정해지나요?</summary><p>아닙니다. 사전 신청은 인원 파악과 현장 준비를 위한 것입니다. 당일 도착 순서대로 입장하며, 성전 수용 인원을 넘으면 입장이 제한될 수 있습니다.</p></details>
-  <details><summary>단체로 신청할 수 있나요?</summary><p>네. 교회 단위나 청소년부·청년부 단위로 ‘단체 신청’ 탭에서 신청해 주세요.</p></details>
-  <details><summary>음식을 가져가도 되나요?</summary><p>쾌적한 예배를 위해 현장에서 드리는 생수 외 음식물 반입은 제한됩니다.</p></details>
-  <details><summary>주차할 수 있나요?</summary><p>교회 주차 공간이 좁습니다. 대중교통이나 카풀을 이용해 주세요.</p></details>
-</div></section>
-</main>
-
-<footer><div class="wrap">
-  <p><b>피아워십과 시온타임</b> · 2026년 11월 21일(토) 저녁 7시 · 전주시온성교회 시온성전</p>
-  <p style="margin-top:6px">주최 전주시온성교회 · 문의 063-252-6016, 252-6214</p>
-</div></footer>
-<div class="fab"><a class="btn pri" href="#register">사전 신청하기</a></div>
-<div class="toast" id="toast"></div>
-
-<script>
-(function(){
-  var API='https://script.google.com/macros/s/AKfycbwQbCfibWjqFoQ_BCyBEYfy-r7zgRoV4vfqkuoYvd2iehD0MZUJNsPqEkq8bm_3wd1n/exec';
-  var $=function(s){return document.querySelector(s)}, $$=function(s){return Array.prototype.slice.call(document.querySelectorAll(s))};
-  var start=new Date('2026-11-21T19:00:00+09:00');
-  var d=Math.ceil((start-new Date())/864e5);
-  $('#dday').innerHTML = d>0 ? '예배까지 <b>D-'+d+'</b>' : (d===0?'<b>오늘 저녁 7시</b>, 시온성전에서 만나요':'함께해 주셔서 감사합니다');
-  var tt; function toast(m){var t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){t.classList.remove('show')},2400)}
-  $('#copy-addr').onclick=function(){var a='전북특별자치도 전주시 덕진구 공북5길 55 전주시온성교회';(navigator.clipboard?navigator.clipboard.writeText(a):Promise.reject()).then(function(){toast('주소가 복사되었습니다')},function(){prompt('주소',a)})};
-  var type='개인', box=$('#reg-box');
-  $$('.tabs button').forEach(function(b){b.onclick=function(){type=b.dataset.t;$$('.tabs button').forEach(function(x){x.classList.toggle('on',x===b)});box.classList.toggle('is-g',type==='단체');
-    $('.p-only').style.display=type==='단체'?'none':'';$('#l-name').textContent=type==='단체'?'담당자 이름':'이름';$('#l-church').textContent=type==='단체'?'교회 / 부서':'교회';
-    $('#f-church').placeholder=type==='단체'?'○○교회 청년부':'○○교회';var c=$('#f-count');if(type==='단체'&&+c.value<2)c.value=10;if(type==='개인'&&+c.value>=10)c.value=1;}});
-  $$('.step button').forEach(function(b){b.onclick=function(){var c=$('#f-count');c.value=Math.max(1,Math.min(2000,(parseInt(c.value,10)||0)+(+b.dataset.s)))}});
-  var ph=$('#f-phone');ph.addEventListener('input',function(){var v=ph.value.replace(/\D/g,'').slice(0,11);ph.value=v.length<4?v:v.length<8?v.slice(0,3)+'-'+v.slice(3):v.slice(0,3)+'-'+v.slice(3,v.length-4)+'-'+v.slice(-4)});
-  $$('input').forEach(function(i){i.addEventListener('input',function(){i.classList.remove('err')})});
-  function fail(el,m){el.classList.add('err');el.focus();toast(m);}
-  function esc(s){return String(s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
-  $('#f').addEventListener('submit',function(e){e.preventDefault();var sub=$('#sub');if(sub.disabled)return;
-    var g=type==='단체',name=$('#f-name'),phone=$('#f-phone'),church=$('#f-church'),cnt=$('#f-count'),agree=$('#f-agree');
-    if(!name.value.trim())return fail(name,g?'담당자 이름을 입력해 주세요':'이름을 입력해 주세요');
-    if(phone.value.replace(/\D/g,'').length<10)return fail(phone,'연락처를 확인해 주세요');
-    if(g&&!church.value.trim())return fail(church,'교회 또는 부서 이름을 입력해 주세요');
-    var hc=parseInt(cnt.value,10)||0;if(hc<1||(g&&hc<2))return fail(cnt,g?'단체는 2명 이상 입력해 주세요':'인원을 확인해 주세요');
-    if(!agree.checked){toast('개인정보 수집·이용에 동의해 주세요');return;}
-    var cat=document.querySelector('input[name=cat]:checked');
-    var data={reg_type:type,name:name.value.trim(),phone:phone.value.trim(),church:church.value.trim(),region:$('#f-region').value,category:g?'단체':(cat?cat.value:'기타'),headcount:hc,
-      youth_count:g?(parseInt($('#f-youth').value,10)||0):((cat&&(cat.value==='청소년'||cat.value==='청년'))?hc:0),bus:g&&$('#f-bus').checked,note:$('#f-note').value.trim(),agree:true};
-    sub.disabled=true;sub.textContent='신청 중…';
-    fetch(API,{method:'POST',body:JSON.stringify({site:'ziontime',data:data})}).then(function(r){return r.json()}).then(function(j){if(!j||!j.ok)throw new Error();
-      $('#ok-msg').innerHTML=(g?esc(data.church)+' <b>'+hc+'명</b>':esc(data.name)+'님')+', 신청해 주셔서 감사합니다.<br>11월 21일(토) 저녁 7시, 전주시온성교회 시온성전에서 만나요. (오후 6시 입장)';
-      $('#cal').href='https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent('피아워십과 시온타임')+'&dates=20261121T100000Z/20261121T120000Z&location='+encodeURIComponent('전주시온성교회 전북 전주시 덕진구 공북5길 55');
-      $('#f').hidden=true;$('.tabs').style.display='none';$('#ok').hidden=false;toast('신청이 완료되었습니다');})
-    .catch(function(){toast('신청 중 문제가 생겼습니다. 잠시 후 다시 시도해 주세요')})
-    .finally(function(){sub.disabled=false;sub.textContent='신청하기'});});
-  $('#again').onclick=function(){$('#f').reset();$('#f').hidden=false;$('#ok').hidden=true;$('.tabs').style.display='';};
-})();
-</script>
+  <script src="main.js" defer></script>
 </body>
 </html>
