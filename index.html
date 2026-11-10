@@ -16,6 +16,7 @@
 <style>
 :root{--bg:#070b14;--bg2:#0c1220;--line:rgba(255,255,255,.09);--w:#f4f7fb;--w6:rgba(244,247,251,.66);--w4:rgba(244,247,251,.44);--c:#00aeef;--c2:#5fd3ff;--y:#ffd54a}
 *{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{font-family:'Pretendard Variable',Pretendard,-apple-system,sans-serif;background:var(--bg);color:var(--w);line-height:1.65;letter-spacing:-.01em;word-break:keep-all}
 a{color:inherit}
@@ -31,7 +32,7 @@ nav a:hover{color:var(--w)}
 .cta-s{background:var(--c);color:#04121c!important;font-weight:700;padding:8px 14px;border-radius:999px}
 @media(max-width:720px){nav a:not(.cta-s){display:none}}
 .hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;padding:120px 0 70px;overflow:hidden}
-.hero-bg{position:absolute;inset:0;background:url(hero-concert.jpg) center/cover no-repeat;transform:scale(1.04)}
+.hero-bg{position:absolute;inset:0;background:url(images/hero-concert.jpg) center/cover no-repeat;transform:scale(1.04)}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,11,20,.10) 0%,rgba(7,11,20,.30) 45%,var(--bg) 100%)}
 .hero .wrap{position:relative;z-index:2;width:100%}
 .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;letter-spacing:.14em;color:var(--c2);text-transform:uppercase}
@@ -125,7 +126,7 @@ footer b{color:var(--w)}
 </head>
 <body>
 <header><div class="wrap">
-  <a class="brand" href="#top"><img src="fia-logo.png" alt="FIA WORSHIP"><span>ZION TIME</span></a>
+  <a class="brand" href="#top"><img src="images/fia-logo.png" alt="FIA WORSHIP"><span>ZION TIME</span></a>
   <nav><a href="#about">소개</a><a href="#program">예배 순서</a><a href="#venue">오시는 길</a><a href="#faq">안내</a><a class="cta-s" href="#register">사전 신청</a></nav>
 </div></header>
 
@@ -154,7 +155,7 @@ footer b{color:var(--w)}
 </div></section>
 
 <section id="leader"><div class="wrap leader">
-  <img src="lg-fia-mic.jpg" alt="찬양을 인도하는 피아워십" loading="lazy">
+  <img src="images/lg-fia-mic.jpg" alt="찬양을 인도하는 피아워십" loading="lazy">
   <div>
     <span class="eyebrow">Worship Leader</span>
     <h3 style="margin-top:12px">이동선 목사</h3>
@@ -175,18 +176,18 @@ footer b{color:var(--w)}
     <li><time>20:50</time><h4>서로 축복하며 마침</h4></li>
   </ol>
   <div class="gal" style="margin-top:36px">
-    <img src="fia-choir.jpg" alt="콰이어 앞에서 찬양을 인도하는 이동선 목사" loading="lazy">
-    <img src="fia-outdoor.jpg" alt="피아워십 야외 찬양예배" loading="lazy">
-    <img src="lg-youth-choir.jpg" alt="함께 찬양하는 청년들" loading="lazy">
-    <img src="fia-arms.jpg" alt="두 손 들고 찬양하는 회중" loading="lazy">
-    <img src="zion-promo.png" alt="시온타임 홍보 이미지" loading="lazy" style="object-fit:contain;background:#0e1626">
+    <img src="images/fia-choir.jpg" alt="콰이어 앞에서 찬양을 인도하는 이동선 목사" loading="lazy">
+    <img src="images/fia-outdoor.jpg" alt="피아워십 야외 찬양예배" loading="lazy">
+    <img src="images/lg-youth-choir.jpg" alt="함께 찬양하는 청년들" loading="lazy">
+    <img src="images/fia-arms.jpg" alt="두 손 들고 찬양하는 회중" loading="lazy">
+    <img src="images/zion-promo.png" alt="시온타임 홍보 이미지" loading="lazy" style="object-fit:contain;background:#0e1626">
   </div>
 </div></section>
 
 <section id="venue"><div class="wrap">
   <div class="sh"><span class="eyebrow">Venue</span><h2>오시는 길</h2></div>
   <div class="venue">
-    <img src="zion-church.jpg" alt="전주시온성교회 전경" loading="lazy">
+    <img src="images/zion-church.jpg" alt="전주시온성교회 전경" loading="lazy">
     <div class="vi">
       <h3>전주시온성교회 시온성전</h3>
       <p class="addr">전북특별자치도 전주시 덕진구 공북5길 55</p>
